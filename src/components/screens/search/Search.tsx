@@ -7,7 +7,6 @@ import { useSearch } from './useSearch'
 
 const Search: NextPage = () => {
 	const { isSuccess, handleSearch, searchTerm, data } = useSearch()
-	console.log(data)
 	return (
 		<div className={styles.search}>
 			<Heading title="Search jokes" />
