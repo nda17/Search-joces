@@ -1,0 +1,38 @@
+{
+	"name": "search-joke",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 3300",
+		"build": "next build",
+		"start": "next start -p 3000",
+		"lint": "next lint",
+		"prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
+	},
+	"dependencies": {
+		"axios": "^1.7.2",
+		"next": "14.2.5",
+		"react": "^18",
+		"react-dom": "^18",
+		"react-hook-form": "^7.52.1",
+		"react-query": "^3.39.3",
+		"sharp": "^0.33.4"
+	},
+	"devDependencies": {
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"autoprefixer": "^10.4.17",
+		"eslint": "^8",
+		"eslint-config-next": "14.2.5",
+		"postcss": "^8",
+		"prettier": "^2.0.0",
+		"prettier-plugin-tailwind": "^2.2.12",
+		"sass": "^1.77.8",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5"
+	},
+	"resolutions": {
+		"autoprefixer": "^10.4.17"
+	}
+}
