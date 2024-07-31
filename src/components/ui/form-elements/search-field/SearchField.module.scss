@@ -1,0 +1,11 @@
+.searchField {
+	@apply rounded-3xl h-8 md:h-8 lg:h-12 xl:h-[3.125rem] xxl:h-[3.625rem] border-solid border-[2px] border-gray-700 px-3 py-2 flex items-center mb-3;
+
+	> input {
+		@apply text-black placeholder:text-gray-600 w-[100%] bg-transparent outline-none;
+	}
+
+	> input::placeholder {
+		@apply text-center;
+	}
+}
